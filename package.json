@@ -4,7 +4,8 @@
   "description": "Run `esbuild` under `lerna run`.",
   "private": true,
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "postinstall": "lerna bootstrap"
   },
   "repository": {
     "type": "git",
