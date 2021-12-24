@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "lerna run build",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run start --parallel --stream"
   },
   "repository": {
     "type": "git",
