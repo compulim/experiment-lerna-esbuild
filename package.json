@@ -1,0 +1,22 @@
+{
+  "name": "experiment-lerna-esbuild",
+  "version": "1.0.0",
+  "description": "Run `esbuild` under `lerna run`.",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compulim/experiment-lerna-esbuild.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/compulim/experiment-lerna-esbuild/issues"
+  },
+  "homepage": "https://github.com/compulim/experiment-lerna-esbuild#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
